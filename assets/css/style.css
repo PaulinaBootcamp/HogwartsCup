@@ -1,0 +1,60 @@
+body {
+    background-image: url('../images/CrystalGameBAckground.png');
+    background-size: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    /* font-family: 'Cinzel', serif;
+    font-family: 'Cormorant', serif;
+    font-family: 'Marcellus SC', serif; */
+    font-family: 'Cormorant SC', serif;
+    border: solid #53091b;
+    padding: 45px 0px 45px 0px;
+    background-color: white;
+    border-radius: 50px;
+    box-shadow: 0px 0px 0px 10px rgba(255, 255, 255, 0.3);
+}
+
+.houseCup {
+    background-image: url(../images/HouseCup.jpg);
+    background-size: 100px;
+    background-position: center;
+    /* height: 20px; */
+    background-repeat: no-repeat;
+    padding-bottom: 25px;
+    padding-top: 165px;
+    color: goldenrod;
+    font-size: 40px;
+    font-family: 'Fredericka the Great', cursive;
+}
+
+#instructions {
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: goldenrod;
+}
+
+#instructions2 {
+    color: #53091b;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.houseCrest {
+    height: 140px;
+    margin-top: 30px;
+}
+
+.screenNotes {
+    color: goldenrod;
+    font-size: 20px;
+}
+
+#userGuessTotal, #losses, #wins {
+    color: #53091b;
+    font-size: 20px;
+}
