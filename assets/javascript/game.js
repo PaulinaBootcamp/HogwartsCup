@@ -45,15 +45,14 @@ do {
 assignedNums.push(slytherin);
 console.log(slytherin)
 
-
-
-
-
 $("#gryffindor").attr("data-number", gryffindor);
 $("#hufflepuff").attr("data-number", hufflepuff);
 $("#ravenclaw").attr("data-number", ravenclaw);
 $("#slytherin").attr("data-number", slytherin);
 console.log(gryffindor, hufflepuff, ravenclaw, slytherin)
+
+
+//on click event starts here
 $(".houseCrest").on("click", function () {
 
     var clickValue = ($(this).attr("data-number"));
@@ -124,7 +123,10 @@ function reset() {
         slytherin = Math.floor(Math.random() * (12 - 1 + 1)) + 1;; // re-randomize
     } while ($.inArray(slytherin, assignedNums) > -1);
     assignedNums.push(slytherin);
-    console.log(slytherin)
+    $("#gryffindor").attr("data-number", gryffindor);
+    $("#hufflepuff").attr("data-number", hufflepuff);
+    $("#ravenclaw").attr("data-number", ravenclaw);
+    $("#slytherin").attr("data-number", slytherin);
 
 }
 
